@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ฟอร์มลงทะเบียนศิษย์เก่า</title>
+</head>
+
+<body>
+    
+  <h1>ฟอร์มลงทะเบียนศิษย์เก่า</h1>
+
+  <form action="#" method="post" enctype="multipart/form-data">
+
+    <label for="fullname">ชื่อ-สกุล:</label>
+    <input type="text" name="fullname" required />
+    <br />
+
+    <label for="studentID">รหัสนักศึกษา:</label>
+    <input type="text" name="studentID" required />
+    <br />
+
+    <label for="gender">เพศ:</label>
+    <select name="gender" required>
+      <option value="male">ชาย</option>
+      <option value="female">หญิง</option>
+    </select>
+    <br />
+
+    <label for="admissionYear">ปีการศึกษาที่เข้า:</label>
+    <input type="text" name="admissionYear" required />
+    <br />
+
+    <label for="address">ที่อยู่:</label>
+    <textarea name="address" rows="4" cols="30" required></textarea>
+    <br />
+
+    <label for="email">อีเมลล์:</label>
+    <input type="email" name="email" required />
+    <br />
+
+    <label for="phoneNumber">เบอร์โทรติดต่อ:</label>
+    <input type="tel" name="phoneNumber" required />
+    <br />
+
+    <label for="major">สาขา :</label>
+    <select name="major" required>
+      <option value="IT">IT</option>
+    </select>
+    <br />
+
+    <label for="currentOccupation">อาชีพปัจจุบัน:</label>
+    <input type="text" name="currentOccupation" required />
+    <br />
+
+    <label for="workplace">สถานที่ทำงาน:</label>
+    <input type="text" name="workplace" required />
+    <br />
+
+    <label for="jobType">ประเภทงาน:</label>
+    <select name="jobType" required>
+      <option value="webDeveloper">Web Developer</option>
+      <option value="systemAnalyst">System Analyst</option>
+      <option value="graphicDesigner">Graphic Designer</option>
+      <option value="digitalMarketing">Digital Marketing</option>
+    </select>
+    <br />
+
+    <label for="photo">อัปโหลดรูปถ่าย:</label>
+    <input type="file" name="photo" accept="image/*" required />
+    <br />
+
+    <input type="submit" value="ส่งข้อมูล" />
+
+  </form>
+
+</body>
+
+</html>
