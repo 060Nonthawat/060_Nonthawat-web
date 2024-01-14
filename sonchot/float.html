@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Layout</title>
+    <style>
+        .news {
+            border: 1px solid;
+            width: 300px;
+            float: left;
+            margin-right: 10px; /* เพิ่มขอบขวาเพื่อแยกแต่ละ div */
+            margin-bottom: 10px; /* เพิ่มขอบล่างเพื่อแยกแต่ละ div */
+            padding: 10px; /* เพิ่ม padding เพื่อเว้นพื้นที่ระหว่างตัวหนังสือกับกรอบ */
+        }
+
+        .news:nth-child(1) {
+            background-color: orange; /* สีส้ม */
+        }
+
+        .news:nth-child(2) {
+            background-color: green; /* สีเขียว */
+        }
+
+        .news:nth-child(3) {
+            background-color: rgb(246, 255, 197); /* สีแดง */
+        }
+    </style>
+</head>
+<body>
+    <div class="news">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, vero, assumenda quidem praesentium possimus saepe doloribus expedita suscipit numquam fugiat libero error porro officia ipsam maxime doloremque aspernatur tenetur quisquam.</p>
+    </div>
+
+    <div class="news">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis rerum officiis dolore inventore natus ullam, fugit at tempora eos repellat, necessitatibus nisi autem dolor incidunt itaque, doloremque excepturi nihil quas.</p>
+    </div>
+
+    <div class="news">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa maiores expedita quam impedit aliquam dolor corporis recusandae vero, alias hic aperiam eligendi. Consequatur, labore nesciunt accusamus libero magni doloremque rem.</p>
+    </div>
+</body>
+</html>
