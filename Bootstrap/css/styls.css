@@ -1,0 +1,68 @@
+.navbar {
+  background-color: #bdbdbd;
+}
+
+.navbar-brand {
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.col-4 h1 {
+  font-size: 36px;
+  color: #000000;
+}
+
+.col-4 h4 {
+  color: #000000;
+}
+
+.col-4 p {
+  color: #000000;
+}
+
+.btn.myBtn {
+  background-color: #5b0085;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+
+.row.portfolio {
+  background-color: #a8a8a8;
+  padding: 40px 0;
+}
+
+.col i {
+  font-size: 48px;
+  color: #007bff;
+}
+
+.col h3 {
+  margin-top: 20px;
+  color: #000000;
+}
+
+.col p {
+  color: #000000;
+}
+
+.container-fluid.text-center {
+  background-color: #bebebe;
+  padding: 20px 0;
+  color: #4c00ff;
+}
