@@ -1,0 +1,44 @@
+.span{
+       
+    margin-right: 15px;
+}
+li{
+display: inline;
+margin-right: 0.5rem;
+
+}
+
+
+.ul{
+display: flex;
+
+
+padding-left: 1.5rem;
+font-size: 16px;
+white-space: nowrap;
+}
+.span{
+color: red;
+}
+.Vacc{
+position: relative;
+right: 1.4rem;
+}
+.con{
+position: relative;
+right: 1%;
+}
+.line{
+position: relative;
+right: 1.7rem;
+opacity: 0.5;
+
+}
+.Jeff{
+position: relative;
+right: 3.4rem;
+}
+.COVID-19T{
+position: relative;
+right: 2rem;
+}

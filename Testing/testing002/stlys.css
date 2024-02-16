@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 2rem;
+    background-color: aliceblue
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding: 10px;
+    list-style: none;
+}
+.menu a {
+    text-decoration-line: none;
+    color: #333;
+}
+
+.hero-colum  {
+    justify-content: center;
+    align-items: center;
+}
