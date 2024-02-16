@@ -3,10 +3,209 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>My GitHub Projects</title>
 </head>
 <body>
-    <h1>My GitHub Projects</h1>
+    <style>
+        body {
+        font-family: 'Times New Roman', sans-serif; 
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Times New Roman', sans-serif; 
+        }
+        p {
+            font-family: 'Times New Roman', sans-serif;
+        }
+        .navbar {
+            font-size: 30px;
+            padding: 30px;
+            padding-right: 190px;
+            padding-left: 210px;
+            margin-bottom: 20px;
+            border-bottom-right-radius: 60px;
+            border-bottom-left-radius: 60px;
+        }
+        .contianer {
+            padding-top: 80px;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .background-color {
+            background: linear-gradient(180deg, rgba(115, 255, 201, 0.466), rgba(32, 32, 32, 0.678)); 
+            padding-bottom: 30px;
+            border-radius: 20px;
+        }
+        .card {
+            margin-top: 30px;
+            background: linear-gradient(180deg, rgb(151, 255, 195), rgba(34, 34, 34, 0.678));
+            border-radius: 20px;
+        }
+        .contianer-background {
+            background-color: #1E1E1E;
+            background-image: url('/Picture/abstrac.png');
+            background-size: contain;
+            background-repeat:space;
+            background-position: top center;
+        }
+        .custom-navbar {
+            background: linear-gradient(180deg, rgba(24, 24, 24, 0.2), rgba(121, 255, 192, 0.212)); 
+        }
+        .navbar-nav .nav-link {
+            color: rgb(255, 255, 255);
+        }
+        .navbar-nav .nav-link.active,.navbar-brand {
+            color: #b9ffbc;
+        }
+        .card-title {
+            color: white;
+        }
+        .btn {
+            background-color: #b9ffbc;
+            color: #262626;
+            font-weight: bold;
+        }
+        .footers {
+            background: linear-gradient(180deg, rgb(171, 255, 203), rgba(97, 97, 97, 0.986));
+            font-weight: bold;
+            font-size: large;
+        }
+    </style>
+<div class="contianer-background">
+    <nav class="navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+            <div class="d-flex align-items-center">
+            <span>Nonthawat<br>Somsit</span>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+        <div class="container background-color">
+        <div class="contianer d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-7">
+                    <h3>Web Programming (934-206)</h3>
+                    <h1>I'm Nonthawat Somsit</h1>
+                    <h4>Student ID : 6540011060<br>Infomation technology</h4>
+                    <br>
+                    <button class="btn btn-primary">Go to know me</button>
+                </div>
+                <div class="col-2">
+                    <img src="Picture/myphoto.png" alt="#">
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                    <img src="/Picture/spotify.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Week 1 Project</h5>
+                        <a href="/week1/index.html" class="btn btn-primary">Read more</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                    <img src="/Picture/Foodmenu.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">FoodRecomended</h5>
+                        <a href="/week2/index.html" class="btn btn-primary">Read more</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                    <img src="/Picture/from.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alumni registration form</h5>
+                        <a href="/week3/formIT.html" class="btn btn-primary">Read more</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                    <img src="/Picture/bostrap.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap</h5>
+                        <a href="/Bootstrap/nonthawat_somsit_060.html" class="btn btn-primary">Read more</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                    <img src="/Picture/Even hanler.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Event Hanler</h5>
+                        <a href="/Event Handler/EventHanler.html" class="btn btn-primary">Read more</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card">
+                    <img src="" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorem, ipsum.</h5>
+                        <a href="" class="btn btn-primary">Read more</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer class="footers py-3">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+        <p class="text-center text-body-secondary">Nonthawat somsit</p>
+    </footer>
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <h1>My GitHub Projects</h1>
     
     <ul>
         <li><a href="week1/index.html">Week 1 Project</a> - Week 1 Project</li>
@@ -14,6 +213,7 @@
         <li><a href="week3/formIT.html">Alumni registration form</a> - Alumni registration form</li>
         <li><a href="Bootstrap/nonthawat_somsit_060.html">Bootstrap</a> - Bootstrap</li>
         <li><a href="Event Handler/EventHanler.html">Event Hanler</a> - Event Hanler</li>
-    </ul>
+    </ul> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
